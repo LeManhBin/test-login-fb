@@ -8,6 +8,7 @@ function FacebookLoginButton() {
       console.log('Access Token: ' + accessToken);
     } else {
       console.log('Chưa cho phép truy cập');
+      console.log(response);
     }
   };
 
